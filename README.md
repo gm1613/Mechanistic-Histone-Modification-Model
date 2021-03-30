@@ -9,7 +9,7 @@
 (2) gillespie_simulation(): USED TO CARRY OUT GILLESPIE SIMULATIONS OF THE MODEL; OUTPUT WRITTEN DIRECTLY TO A TEXT FILE
 (3) main(): ACCEPTS USER SPECIFIED SIMULATION PARAMETERS (number of simulated trajectories AND AND CALLS THE "gillespie_simulation" FUNCTION TO RUN SIMULATIONS OF THE MODEL
 
-#      OUTPUT FORMAT (Written to text file):
+#      OUTPUT FORMAT (Written to text file): transcriptional_fb_model_gillespieSSA_output.txt
      COLUMN 1: Reaction times
      COLUMN 2: H3K27me0 coverage
      COLUMN 3: H3K27me1 coverage
