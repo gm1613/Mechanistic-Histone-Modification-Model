@@ -5,6 +5,8 @@
 //  Created by Govind Menon (JIC) on 27/02/2021.
 //
 
+// Compile using the command: clang++ -Wall -pedantic transcriptional_fb_model_gillespieSSA.cpp -o transcriptional_fb_model_gillespieSSA_compiled  -lgsl -lgslcblas
+// Then run using the command: ./transcriptional_fb_model_gillespieSSA_compiled <user_input_nsims> <user_input_ncycles>
 
 #include <iostream>
 #include <cmath>
@@ -413,7 +415,7 @@ int main(int argc, char *argv[])
     
     cout << "Time used:" << cpu_time_used << "\n";
     
-    
+    return flag;
     
     
 }
